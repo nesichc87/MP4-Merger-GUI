@@ -16,6 +16,11 @@ Ein einfaches Python-Tool mit GUI zur **Zusammenführung mehrerer MP4-Dateien** 
 ```bash
  python mp4_merger.py
 ```
+### 3️⃣ Downgrade MoviePy (If Necessary)
+Some users have reported that newer versions of MoviePy removed editor.py. Try downgrading:
+```bash
+pip install moviepy==1.0.3
+```
 ## 📌 Voraussetzungen
 Python 3.7 oder höher
 
